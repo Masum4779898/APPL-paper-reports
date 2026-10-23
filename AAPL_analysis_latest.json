@@ -1,0 +1,13 @@
+{
+  "symbol": "AAPL",
+  "interval": "5min",
+  "last_candle_ny": "2026-10-23 15:55:00",
+  "last_close": 347.72501,
+  "sma20": 346.82,
+  "sma50": 346.76,
+  "trend": "Aufwaerts",
+  "retrieved_utc": "2026-10-23T21:20:45.405271+00:00",
+  "volume_status": "MISMATCH",
+  "signals_allowed": false,
+  "volume_based_entry": "BLOCK"
+}
