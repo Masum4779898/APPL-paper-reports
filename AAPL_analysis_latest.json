@@ -1,12 +1,12 @@
 {
   "symbol": "AAPL",
   "interval": "5min",
-  "last_candle_ny": "2026-10-26 10:05:00",
-  "last_close": 343.56,
-  "sma20": 345.49,
-  "sma50": 346.07,
+  "last_candle_ny": "2026-10-26 10:50:00",
+  "last_close": 346.825,
+  "sma20": 344.88,
+  "sma50": 345.84,
   "trend": "Abwaerts oder neutral",
-  "retrieved_utc": "2026-10-26T14:11:56.769069+00:00",
+  "retrieved_utc": "2026-10-26T14:56:59.940944+00:00",
   "volume_status": "MISMATCH",
   "signals_allowed": false,
   "volume_based_entry": "BLOCK"
