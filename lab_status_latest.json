@@ -1,0 +1,85 @@
+{
+  "schema": "ai-trading-lab/status/v1",
+  "generated_utc": "2026-10-30T23:13:02Z",
+  "today_new_york": "2026-10-30",
+  "today_is_trading_day": true,
+  "expected_trading_day": "2026-10-30",
+  "report_status": "COMPLETE",
+  "status_notes": [],
+  "components": {
+    "shadow_session": {
+      "status": "COMPLETE",
+      "trading_day": "2026-10-30",
+      "last_update_utc": "2026-10-30T20:16:16Z",
+      "daily_report": true
+    },
+    "datajob": {
+      "status": "COMPLETE",
+      "session": "2026-10-30",
+      "started_utc": "2026-10-30T21:45:00Z",
+      "finished_utc": "2026-10-30T21:45:08Z"
+    },
+    "key_session": {
+      "active": true,
+      "expires_utc": "2026-11-05T18:13:29Z"
+    }
+  },
+  "day": {
+    "trading_day": "2026-10-30",
+    "simulated_trades": 1,
+    "virtual_pnl_usd": -26.71,
+    "fees_usd": 2.11,
+    "start_equity_usd": 5000.0,
+    "virtual_equity_usd": 4973.29,
+    "virtual_cash_usd": 4973.29
+  },
+  "last_complete_day": null,
+  "account": {
+    "exists": true,
+    "start_cash_usd": 5000.0,
+    "virtual_equity_usd": 4973.29,
+    "as_of_trading_day": "2026-10-30",
+    "cumulative_pnl_usd": -26.71,
+    "simulated_trades_total": 1,
+    "open_positions": 0
+  },
+  "data_quality": {
+    "session": "2026-10-30",
+    "symbols": [
+      {
+        "symbol": "AAPL",
+        "quality": "VERIFIED",
+        "volume": "CONSISTENT",
+        "gate": "BLOCKED",
+        "comparison": "PRICES_ONLY",
+        "reasons": [
+          "Quelle alpaca fuer AAPL nicht bestaetigt (lab_config.json: confirmed_sources); ein internes VERIFIED gibt Abweichungen zu anderen Quellen nicht frei",
+          "Paper-Signale auf Echtdaten nicht freigeschaltet (lab_config.json: allow_paper_signals_on_verified_data)"
+        ]
+      }
+    ]
+  },
+  "signals": {
+    "trading_day": "2026-10-30",
+    "virtual_orders": 0,
+    "skipped_signals": 0,
+    "data_gaps": 0,
+    "skip_reasons": [],
+    "symbols_blocked": []
+  },
+  "safety": {
+    "paper_only": true,
+    "real_orders_allowed": false,
+    "orders_allowed": false,
+    "signals_allowed": false,
+    "paper_signals_switch": false,
+    "confirmed_sources": 0,
+    "modules_ok": true
+  },
+  "errors": [
+    {
+      "component": "schattenbetrieb",
+      "message": "2026-10-30: die Handelszeit ist vorbei, Paper-Live startet am naechsten Handelstag"
+    }
+  ]
+}
