@@ -1,8 +1,8 @@
 {
   "schema": "ai-trading-lab/status/v1",
-  "generated_utc": "2026-10-30T23:13:02Z",
-  "today_new_york": "2026-10-30",
-  "today_is_trading_day": true,
+  "generated_utc": "2026-10-31T18:39:29Z",
+  "today_new_york": "2026-10-31",
+  "today_is_trading_day": false,
   "expected_trading_day": "2026-10-30",
   "report_status": "COMPLETE",
   "status_notes": [],
@@ -43,6 +43,13 @@
     "simulated_trades_total": 1,
     "open_positions": 0
   },
+  "orders": {
+    "simulated_orders": 1,
+    "simulated_trades": 1,
+    "broker_orders_sent": 0,
+    "broker_connected": false,
+    "basis": "Simulierte Orders und Trades laufen nur im Schatten-Depot des Labs. An einen Broker wird nichts gesendet: keine Broker-Anbindung, weder Echtgeld- noch Alpaca..."
+  },
   "data_quality": {
     "session": "2026-10-30",
     "symbols": [
@@ -61,7 +68,6 @@
   },
   "signals": {
     "trading_day": "2026-10-30",
-    "virtual_orders": 0,
     "skipped_signals": 0,
     "data_gaps": 0,
     "skip_reasons": [],
@@ -76,10 +82,5 @@
     "confirmed_sources": 0,
     "modules_ok": true
   },
-  "errors": [
-    {
-      "component": "schattenbetrieb",
-      "message": "2026-10-30: die Handelszeit ist vorbei, Paper-Live startet am naechsten Handelstag"
-    }
-  ]
+  "errors": []
 }
