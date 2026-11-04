@@ -1,23 +1,23 @@
 {
   "schema": "ai-trading-lab/status/v1",
-  "generated_utc": "2026-11-03T22:05:01Z",
-  "today_new_york": "2026-11-03",
+  "generated_utc": "2026-11-04T22:05:02Z",
+  "today_new_york": "2026-11-04",
   "today_is_trading_day": true,
-  "expected_trading_day": "2026-11-03",
+  "expected_trading_day": "2026-11-04",
   "report_status": "COMPLETE",
   "status_notes": [],
   "components": {
     "shadow_session": {
       "status": "COMPLETE",
-      "trading_day": "2026-11-03",
-      "last_update_utc": "2026-11-03T21:16:16Z",
+      "trading_day": "2026-11-04",
+      "last_update_utc": "2026-11-04T21:16:17Z",
       "daily_report": true
     },
     "datajob": {
       "status": "COMPLETE",
-      "session": "2026-11-03",
-      "started_utc": "2026-11-03T21:45:01Z",
-      "finished_utc": "2026-11-03T21:45:08Z"
+      "session": "2026-11-04",
+      "started_utc": "2026-11-04T21:45:03Z",
+      "finished_utc": "2026-11-04T21:45:10Z"
     },
     "key_session": {
       "active": true,
@@ -25,22 +25,22 @@
     }
   },
   "day": {
-    "trading_day": "2026-11-03",
+    "trading_day": "2026-11-04",
     "simulated_trades": 1,
-    "virtual_pnl_usd": -51.51,
-    "fees_usd": 2.11,
-    "start_equity_usd": 4973.29,
-    "virtual_equity_usd": 4921.78,
-    "virtual_cash_usd": 4921.78
+    "virtual_pnl_usd": -12.81,
+    "fees_usd": 2.1,
+    "start_equity_usd": 4921.78,
+    "virtual_equity_usd": 4908.97,
+    "virtual_cash_usd": 4908.97
   },
   "last_complete_day": null,
   "account": {
     "exists": true,
     "start_cash_usd": 5000.0,
-    "virtual_equity_usd": 4921.78,
-    "as_of_trading_day": "2026-11-03",
-    "cumulative_pnl_usd": -78.22,
-    "simulated_trades_total": 2,
+    "virtual_equity_usd": 4908.97,
+    "as_of_trading_day": "2026-11-04",
+    "cumulative_pnl_usd": -91.03,
+    "simulated_trades_total": 3,
     "open_positions": 0
   },
   "orders": {
@@ -51,7 +51,7 @@
     "basis": "Simulierte Orders und Trades laufen nur im Schatten-Depot des Labs. An einen Broker wird nichts gesendet: keine Broker-Anbindung, weder Echtgeld- noch Alpaca..."
   },
   "data_quality": {
-    "session": "2026-11-03",
+    "session": "2026-11-04",
     "symbols": [
       {
         "symbol": "AAPL",
@@ -67,9 +67,9 @@
     ]
   },
   "signals": {
-    "trading_day": "2026-11-03",
+    "trading_day": "2026-11-04",
     "skipped_signals": 0,
-    "data_gaps": 15,
+    "data_gaps": 0,
     "skip_reasons": [],
     "symbols_blocked": []
   },
